@@ -2,6 +2,31 @@ body{
   padding-top:80px;
   word-wrap:break-word;
 }
-img{
-  height: 200px;
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: .3rem;
+  box-shadow: rgba(0, 0, 0, 0.075) 0px 2px 4px 0px;
+}
+.btn{
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border: 2px solid #000;
+  border-radius: 3px;
+  color: #fff;
+  background: #000;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align:center;
+  transition-duration: .15s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+}
+.btn:hover{
+  color: #000;
+  background: #fff;
 }
